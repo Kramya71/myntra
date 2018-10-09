@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+.my1
+   {
+     margin-top:0%
+   }
+     .my2
+     {
+         margin-top:-10%;
+         margin-left:70%;
+     }
+     .my2 button{
+          border-radius:12px;
+     }
+     
+     .header5{
+         margin-left:5%;
+         diplay-inline:block;
+        
+     }
+
+     .shirt{
+        display:inline-block;
+        width:220px;
+        
+        
+     }
+     .color{ 
+        
+        border-right-style: none;
+       
+        
+     }
+     .desc
+              {
+                margin-top:5%;
+                margin-left:10%;
+               
+              }
+              .desc1
+              {
+                float:left;
+                margin-left:50%;
+                margin-top:-45%;
+              }
+              .desc2
+              {
+                color: #526CD0;
+                font-weight: 500px;
+              float:right;
+               
+              }
+              .dot
+              {
+                height: 45px;
+                 width: 45px;
+                 background-color: #bbb;
+                 border-radius: 50%;
+                  display: inline-block;
+                  padding: 2%;
+                 
+              }
+             .desc4 button
+              {
+                background-color:aquamarine;
+                height:5%;
+              }     
+                   
+           .checked
+            {
+            color:orange;
+            }
+     .flexcontainer {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-left:5%;
+   margin-bottom:1%;
+   margin-top:5%;
+   
+
+   
+  
+}
+.dropdown
+{
+ margin-left:1%;
+}

@@ -1,0 +1,43 @@
+<div class="col-md-2">
+<div class="color">
+        <h1><b>Colors</b></h1>
+       <ul>
+                <li><a href="#"><i></i> Red(5)</a></li>
+                <li><a href="#"><i></i> Brown(2)</a></li>
+                <li><a href="#"><i></i> Yellow(3)</a></li>
+                <li><a href="#"><i></i> Violet(6)</a></li>
+                <li><a href="#"><i></i> Orange(2)</a></li>
+                <li><a href="#"><i></i> Blue(1)</a></li>
+           </ul>
+</div>
+
+    <div class="brand">
+        <h2><b>Brand</b></h2>
+        <ul>
+                <li><a href="#"><i></i> Roadster</a></li>
+                <li><a href="#"><i></i> Dressberry</a></li>
+                <li><a href="#"><i></i> H&M</a></li>
+                <li><a href="#"><i></i> Biba</a></li>
+                <li><a href="#"><i></i> Libas</a></li>
+                <li><a href="#"><i></i> Farangi</a></li>
+            </ul>
+</div>
+</div>
+
+
+
+
+
+<div class="col-md-10">
+ <span class="shirt"
+    *ngFor="let shirts of Menarray">
+    
+        <a href="#"> <img src="{{shirts.image}}" alt="images"/>
+  </a>
+  <a href= "#"><p>{{shirts.price}} </p>
+  </a>
+ <a target="_blank"[routerLink]="['/details']"><button>Click view</button></a>
+
+  </span>
+  </div>
+  

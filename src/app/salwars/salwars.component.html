@@ -1,0 +1,39 @@
+<div class="col-md-3">
+    <div class="color">
+            <h1><b>Colors</b></h1>
+           <ul>
+                    <li><a href="#"><i></i> Red(5)</a></li>
+                    <li><a href="#"><i></i> Brown(2)</a></li>
+                    <li><a href="#"><i></i> Yellow(3)</a></li>
+                    <li><a href="#"><i></i> Violet(6)</a></li>
+                    <li><a href="#"><i></i> Orange(2)</a></li>
+                    <li><a href="#"><i></i> Blue(1)</a></li>
+               </ul>
+    </div>
+    <div class="brand">
+        <h2><b>Brand</b></h2>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"> Roadsater<br>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"> H&M<br>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"> Max<br>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"> Trends<br>
+           
+           
+           
+           
+        </div>
+              
+     </div>
+            
+</div>
+<div class="col-md-9">
+    <span class="salwar"
+       *ngFor="let salwar of salwararray">
+       
+           <a href="#" ><img src="{{salwar.image}}" alt="images"/>
+     </a>
+     <a href= "#"><p>{{salwar.price}} </p>
+     </a>
+     </span>
+     </div>
+     

@@ -1,0 +1,71 @@
+<nav class="nav navbar-inverse" style="background-color:white;">
+  <div class="myntra">
+                <div class="my1">
+                 <img src="assets/images/myntra.jpg"  alt="logo" style="width:10%;height:2%;">
+                  </div>
+       </div>           
+             <nav class="my2">
+                      <a href="/Gift Cards/">Gift Cards</a> <button  class="button button"style="background-color:pink;">New card</button> |
+                      <a href="/Track orders/">Track order</a> |
+                       <a href="/Contact us/">Contact us</a> |
+                 </nav>
+             <div class="container flexcontainer">
+                  <div class="dropdown">
+                  <button class=" dropdown-toggle" type="button" data-toggle="dropdown">Men
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a [routerLink]="['/shirt']">shirts</a></li>
+                    <li><a [routerLink]="['/salwars']">Salwars</a></li>
+                    <li><a [routerLink]="['/shoes']">shoes</a></li>
+                  </ul>
+                </div>
+              <div class="dropdown">
+                  <button class=" dropdown-toggle" type="button" data-toggle="dropdown">Women
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <a href="#">kurtas</a>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">shoes</a></li>
+                  </ul>
+                </div>
+             <div class="dropdown">
+                  <button class=" dropdown-toggle" type="button" data-toggle="dropdown">Kids
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Furniture</a></li>
+                    <li><a href="#">kitchen sets</a></li>
+                    <li><a href="#">bed sheets</a></li>
+                  </ul>
+                </div>
+         
+              <div class="header5">
+          
+                  <input type="text" placeholder="search"  style="width:60%;background-color:lightblue;">
+                            <span class="glyphicon glyphicon-search"type="border-right"></span> 
+                       
+                   <button onclick="parent-id"type="btn btn-default"><span class="glyphicon glyphicon-user">User</span>  </button>
+                            
+                    <div id="parent-id" style="display:none;">
+                      <p>Your account</p>
+                      <button>Signup</button>
+                      <button>Login</button>
+                  </div>    
+                             <script>
+                                function myFunction() 
+                                {
+                                  var parentDOM = document.getElementById('parent-id');
+
+                                  
+                                }
+                                </script>
+                                
+                            
+                           
+       </div>
+      </div>
+             </nav>
+             <slides></slides>
+            
+              
+            
+               
